@@ -82,7 +82,7 @@ export default function WeatherWidget() {
       {/* overlay to improve text legibility */}
       <div className="absolute inset-0 bg-black/10" />
 
-      <div className="absolute inset-0 p-[18px] flex flex-col justify-between">
+      <div className="absolute inset-0 p-8 flex flex-col justify-between">
         {/* Top row — temperature centered to the height of the left stack */}
         <div className="flex justify-between items-center">
           <div className="text-white drop-shadow-sm">
